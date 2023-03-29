@@ -3,113 +3,173 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+
+.navbar{
+    width: 30%;
+    background: #2d3e4f;
+    height: 100%;
+}
+
+.content{
+    width: 70%;
+}
+
+.navbar-nav{
+    margin-top: 203px;
+}
+
+.navbar-nav h1{
+    color: #cf404d;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 main{
     display: flex;
-    justify-content: center;
 }
 
-.navbar{
-    width: 329px;
-    height: 2817px;
-    background: #2D3E4F;
-}
-
-
-
-.content{
-    width: 1111px;
-    height: 2817px;
-
-}
-
-.content-img{
+.content-img img{
     width: 100%;
-    height: 800px;
-    background-image: url("./img/Frame.png");
+}
+
+.navbar-nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 42px;
+}
+
+.navbar-nav ul li {
+    text-transform: uppercase;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.active{
+    color: #cf404d !important;
+}
+
+.content-info-text{
+    min-width: 881px;
+    width: 100%;
+    margin: auto;
+}
+
+.content-info h2{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #313131;
+    margin: 57px 0 37px;
+}
+
+.content-info p{
+    font-family: 'Droid Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(115, 115, 115, 0.74);
+}
+
+.content-info-text p{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 54px;
+    text-align: left;
 }
 
 .content-info{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-bottom: 156px;
 }
 
 .content-title{
-    width: 100%;
-    height: 135px;
-    background: #CF404D;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    background: #cf404d;
+    padding: 50px 91px 49px 75px;
 }
 
+.content-title h3{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 36px;
+    color: #ffffff;
+}
+
+.content-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-title .btn{
+    width: 125px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    background: transparent;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+}
 
 .content-portfolio{
-  display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;  
+    padding: 63px 96px 72px 96px;
 }
 
-
-
-
-.content-portfolio-img{
-    width: 920px;
-    height: 450px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    row-gap: 20px;
+.content-portfolio h3{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;  
 }
 
-.img1{
-    width: 215px;
-    height: 215px;
-    background-image: url("./img/1\ 1.png");
+.content-portfolio p{
+    font-family: 'Droid Sana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(115, 115, 115, 0.74);
+    margin: 16px 0 72px;
 }
 
-.img2{
-    width: 215px;
-    height: 215px;
-    background-image: url("./img/2\ 1.png");
-}
-
-.img3{
-    width: 215px;
-    height: 215px;
-    background-image: url("./img/3\ 1.png");
-}
-
-.img4{
-    width: 215px;
-    height: 215px;
-    background-image: url("./img/4\ 1.png");
-}
-
-.img5{
-    width: 215px;
-    height: 215px;
-    background-image: url("./img/Maroon_cat-dog_neon_steampunk_8k_897b5d92-36d6-47c2-a417-091ecf446c5e\ 1.png");
-}
-
-.img6{
-    width: 215px;
-    height: 215px;
-    background-image: url("./img/6\ 1.png");
-}
-
-.img7{
-    width: 215px;
-    height: 215px;
-    background-image: url("./img/a_young_woman_leaning_against_a_wall_and_putting_her_hand_o_564bd255-a56d-45b0-8732-e862e05c5406\ 1.png");
-}
-
-.img8{
-    width: 215px;
-    height: 215px;
-    background-image: url("./img/8\ 1.png");
+.content-portfolio .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    width: 80%;
+    margin: auto;
 }

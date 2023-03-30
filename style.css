@@ -177,8 +177,8 @@ margin: 0 auto;
 
 .wrapper-img{
     opacity: 0.4;
-    filter: grayscale(100%);
-    transition: 0.7s;
+    filter: grayscale(50%);
+    transition: 0.8s;
 }
 
 .wrapper-img:hover{
